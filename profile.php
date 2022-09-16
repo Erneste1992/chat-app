@@ -330,7 +330,7 @@ PPI;
                     <?php if(count($posts) == 0) { ?>
                         <div id="empty-posts-message">
                             <h2>Try to add friends, or follow them to see their posts ..</h1>
-                            <p>click <a href="http://127.0.0.1/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
+                            <p>click <a href="http://172.22.100.49/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
                         </div>
                     <?php } else { 
                         foreach($posts as $post) {

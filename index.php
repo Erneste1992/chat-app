@@ -88,7 +88,7 @@ function post_date_latest_sort($post1, $post2) {
                 <?php if(count($journal_posts) == 0) { ?>
                     <div id="empty-posts-message">
                         <h2>Try to add friends, or follow them to see their posts ..</h1>
-                        <p>click <a href="http://127.0.0.1/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
+                        <p>click <a href="http://172.22.100.49/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
                     </div>
                 <?php } else { 
                     foreach($journal_posts as $post) {
@@ -104,5 +104,6 @@ function post_date_latest_sort($post1, $post2) {
         <?php include_once "page_parts/basic/master-right.php" ?>
     </div>
 </main>
+
 </body>
 </html>

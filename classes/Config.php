@@ -4,7 +4,7 @@
     $GLOBALS["config"]["mysql"]['host'] for exemple to access host, but this is somewhat messy, we need to build 
     Config class so that we can access our config in a super easy way using forward slash manner like:
     
-        echo Config::get('mysql/host'); // Output: 127.0.0.1
+        echo Config::get('mysql/host'); // Output: 172.22.100.49
     */
     
     namespace classes;
@@ -18,7 +18,7 @@
                Then we set it in $config variable, then we explode the path using / delimeter to get path pieces
                and we loop through these pieces as following:
                first we ask if mysql isset in $config ? YES so we change our config from $GLOBALS to 'mysql' section in GLOBALS
-               the second iteration we ask if host isset inside mysql section yes we set $config = 127.0.0.1 which is the value in host
+               the second iteration we ask if host isset inside mysql section yes we set $config = 172.22.100.49 which is the value in host
                Finally we return the data associated to the last segment in the path
                 
                Other ex if the following path is given : Config::get('mysql/username');

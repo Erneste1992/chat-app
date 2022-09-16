@@ -208,8 +208,15 @@
                         <input type="submit" value="Register" name="register" class="button-style-1" style="width: 70px;">
                     </div>
                 </form>
-            </div>
+              
         </div>
     </main>
+    <div class="classic-form-input-wrapper">
+                       <p><center><h2>Contact Administrator at Admin@gmail.com</h2></center></p>
+                    </div>
+    <div>
+                       <p><center>All rights reserved 2022</center></p>
+                   
+                    </div>
 </body>
 </html>

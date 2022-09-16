@@ -5,7 +5,7 @@
     use classes\{DB, Config, Validation, Common, Session, Token, Hash, Redirect, Cookie};
     use models\User;
     use layouts\search\Search;
-    // DONT'T FORGET $user OBJECT IS DECLARED WITHIN INIT.PHP (REALLY IMPORTANT TO SEE TO SEE [IMPORTANT#4]
+    // DONT'T FORGET $user OBJECT IS DECLARED WITHIN INIT.PHP (REALLY IMPORTANT TO SEE  [IMPORTANT#4]
     // Here we check if the user is not logged in and we redirect him to login page
 
     if(!$user->getPropertyValue("isLoggedIn")) {

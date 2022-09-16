@@ -14,7 +14,7 @@ class Hash {
         return hash("sha256", $string . $salt);
     }
 
-    // This one will add salt hhh
+    // This one will add salt 
     public static function salt($length) {
         return bin2hex(random_bytes($length));
     }

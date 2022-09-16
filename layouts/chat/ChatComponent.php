@@ -67,7 +67,7 @@ EOS;
                     </div>
                     <div id="chat-container" class="relative">
                         <div class="chat-date">
-                            <p class="regular-text" style="text-align: center; margin: 14px 0 20px 0"></p>
+                            <p class="regular-text" style="text-align: center; margin: 14px 0 20px 0">Welcome to chat room </p>
                         </div>
                     </div>
                     <div class="message-input-box relative">
@@ -161,7 +161,7 @@ CUM;
                                         <input type="hidden" value="$message_id" class="message_id">
                                     </div>
                                     <div class="sub-option-style-2">
-                                        <a href="" class="black-link reply-button">Reply Message</a>
+                                        <a href="" class="black-link reply-button">Reply (under construction)</a>
                                         <input type="hidden" value="$message_id" class="message_id">
                                     </div>
                                 </div>

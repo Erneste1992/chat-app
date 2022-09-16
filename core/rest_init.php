@@ -7,7 +7,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 $GLOBALS["config"] = array(
     "mysql" => array(
-        'host'=>'127.0.0.1',
+        'host'=>'172.22.100.49',
         'username'=>'root',
         'password'=>'',
         'db'=>'chat'
@@ -29,6 +29,6 @@ $GLOBALS["config"] = array(
         )
     ),
     "root"=> array(
-        'path'=>'http://127.0.0.1/chat/'
+        'path'=>'http://172.22.100.49/chat/'
     )
 );

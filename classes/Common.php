@@ -11,11 +11,6 @@ class Common {
         return '';
     }
 
-    /*
-        The code taken from php documentation contribution notes:
-        Code writer: 
-        link: https://www.php.net/manual/en/function.array-unique.php#116302
-    */
     public static function unique_multidim_array($array, $key) {
         $temp_array = array();
         $i = 0;
