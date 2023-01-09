@@ -36,7 +36,8 @@ function post_date_latest_sort($post1, $post2) {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Postchat</title>
 <link rel='shortcut icon' type='image/x-icon' href='public/assets/images/favicons/logo.png' />
 <link rel="stylesheet" href="public/css/global.css">
@@ -46,6 +47,7 @@ function post_date_latest_sort($post1, $post2) {
 <link rel="stylesheet" href="public/css/master-left-panel.css">
 <link rel="stylesheet" href="public/css/master-right-contacts.css">
 <link rel="stylesheet" href="public/css/post.css">
+<link rel="stylesheet" href="public/css/responsiveness.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="public/javascript/config.js" defer></script>
@@ -54,6 +56,7 @@ function post_date_latest_sort($post1, $post2) {
 <script src="public/javascript/master-right.js" defer></script>
 <script src="public/javascript/post.js" defer></script>
 
+
 </head>
 <body >
 <?php include_once "page_parts/basic/header.php"; ?>
@@ -61,8 +64,8 @@ function post_date_latest_sort($post1, $post2) {
     <div class="notification-bottom-container">
         <p class="notification-bottom-sentence">THIS IS TEST</p>
     </div>
-    <div id="global-container" class="relative">
-        <div class="post-viewer-only">
+    <div id="global-container"  class="relative">
+        <div class="post-viewer-only" style="height: 1625;">
             <div class="viewer-post-wrapper">
                 <img src="" class="post-view-image" alt="">
                 <div class="close-view-post"></div>
@@ -88,7 +91,7 @@ function post_date_latest_sort($post1, $post2) {
                 <?php if(count($journal_posts) == 0) { ?>
                     <div id="empty-posts-message">
                         <h2>Try to add friends, or follow them to see their posts ..</h1>
-                        <p>click <a href="http://172.22.100.49/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
+                        <p>click <a href="http://192.168.1.18/chat/search.php" class="link" style="color: rgb(66, 219, 66)">here</a> to go to the search page</p>
                     </div>
                 <?php } else { 
                     foreach($journal_posts as $post) {

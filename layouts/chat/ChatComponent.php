@@ -161,7 +161,7 @@ CUM;
                                         <input type="hidden" value="$message_id" class="message_id">
                                     </div>
                                     <div class="sub-option-style-2">
-                                        <a href="" class="black-link reply-button">Reply (under construction)</a>
+                                        <a href="" class="black-link reply-button">Reply </a>
                                         <input type="hidden" value="$message_id" class="message_id">
                                     </div>
                                 </div>

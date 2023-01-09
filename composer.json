@@ -1,5 +1,5 @@
 {
-    "name": "erneste/composer",
+    "name": "chat/composer",
     "require": {
         "mailgun/mailgun-php":"~1.7.1",
         "guzzlehttp/guzzle": "7.2.0"

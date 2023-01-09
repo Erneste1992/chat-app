@@ -289,15 +289,17 @@ function recurse_copy($src,$dst) {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 <title>Postchat</title>
 <link rel='shortcut icon' type='image/x-icon' href='public/assets/images/favicons/logo.png' />
 <link rel="stylesheet" href="public/css/global.css">
 <link rel="stylesheet" href="public/css/settings.css">
+<link rel="stylesheet" href="public/css/responsiveness.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="public/javascript/config.js" defer></script>
 <script src="public/javascript/settings.js" defer></script>
+
 </head>
 <body>
 <main>

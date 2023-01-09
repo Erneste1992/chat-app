@@ -156,7 +156,11 @@ MSG;
 
     $setting_path = Config::get("root/path") . "settings.php";
 ?>
+
+
 <header>
+<link rel="stylesheet" href="public/css/responsiveness.css">
+<script src="public/javascript/customer.js" defer></script>
     <div id="top-header">
         <div id="header-logo-container">
             <!-- height of <a> should be like img height -->

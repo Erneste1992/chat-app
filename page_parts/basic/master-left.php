@@ -18,6 +18,13 @@
     $user_profile_path = Config::get("root/path") . "profile.php?username=" . $user->getPropertyValue("username");
 
 ?>
+<header>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="public/css/responsiveness.css">
+
+
 
 <div id="master-left">
     <div class="flex-space">
@@ -62,12 +69,12 @@
                     </div>
                     <p class="label-style-3">Pages</p>
                 </a>-->
-               <!-- <a href="<?php echo Config::get("root/path") . "notifications.php" ?>" class="no-underline menu-item-style-2 row-v-flex">
+                <a href="<?php echo Config::get("root/path") . "chatgroup/index.php" ?>" class="no-underline menu-item-style-2 row-v-flex">
                     <div class="image-style-2 flex-row-column">
                         <img src="public/assets/images/icons/group-w.png" class="image-style-5" alt="">
                     </div>
                     <p class="label-style-3">Groups</p>
-                </a>-->
+                </a>
                 <p class="regular-text green-text" style="margin: 6px 0 8px 6px">Profile</p>
                 <div id="menu-profile-container" class="relative">
                     <div class="absolute header-profile-edit-container">
@@ -114,3 +121,4 @@
         </div>
     </div>
 </div>
+</header>

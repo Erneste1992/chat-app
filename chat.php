@@ -28,18 +28,20 @@ $current_user_id = $user->getPropertyValue("id");
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Postchat</title>
     <link rel='shortcut icon' type='image/x-icon' href='public/assets/images/favicons/logo.png' />
     <link rel="stylesheet" href="public/css/global.css">
     <link rel="stylesheet" href="public/css/header.css">
     <link rel="stylesheet" href="public/css/chat.css">
     <link rel="stylesheet" href="public/css/master-left-panel.css">
+    <link rel="stylesheet" href="public/css/responsiveness.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="public/javascript/config.js" defer></script>
     <script src="public/javascript/global.js" defer></script>
     <script src="public/javascript/chat.js" defer></script>
+    
 </head>
 <body>
 <?php include_once "page_parts/basic/header.php"; ?>

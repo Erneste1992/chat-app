@@ -7,6 +7,13 @@
 ?>
 
 <header>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+<link rel="stylesheet" href="public/css/responsiveness.css">
+
+
+
     <div>
         <a href="<?php echo Config::get("root/path") . "index.php"; ?>" ><img src="<?php echo $pathToLogo ?>public/assets/images/logos/" alt="" class=""><h1 style="height: 60px" style="color:gray;font-size:90px; ">Postchat</h1></a>
     </div>

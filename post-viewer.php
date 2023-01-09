@@ -1,4 +1,3 @@
-
 <?php
 
 require_once "vendor/autoload.php";
@@ -143,19 +142,21 @@ foreach (scandir($directory) as $file) {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>Postchat</title>
 <link rel='shortcut icon' type='image/x-icon' href='public/assets/images/favicons/logo.png' />
 <link rel="stylesheet" href="public/css/header.css">
 <link rel="stylesheet" href="public/css/global.css">
 <link rel="stylesheet" href="public/css/post.css">
 <link rel="stylesheet" href="public/css/post-viewer.css">
+<link rel="stylesheet" href="public/css/responsiveness.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="public/javascript/config.js" defer></script>
 <script src="public/javascript/post.js" defer></script>
 <script src="public/javascript/post-viewer.js" defer></script>
 <script src="public/javascript/global.js" defer></script>
+
 </head>
 <body>
 <?php include_once "page_parts/basic/header.php"; ?>
@@ -190,7 +191,7 @@ foreach (scandir($directory) as $file) {
                         <a href=""><img src="<?php echo $post_owner_picture ?>" class="poster-image" alt=""></a>
                     </div>
                     <div style="margin-left: 6px;">
-                        <a href="http://172.22.100.49/chat/profile.php?username=<?php echo $post_owner_username; ?>" class="post-owner-name"><?php echo $post_owner_fullname; ?> -@<?php echo $post_owner_username ?></a>
+                        <a href="http://127.0.0.1/chat/profile.php?username=<?php echo $post_owner_username; ?>" class="post-owner-name"><?php echo $post_owner_fullname; ?> -@<?php echo $post_owner_username ?></a>
                         <div class="row-v-flex">
                             <p class="regular-text"><a href="" class="post-date"><?php echo $post_date; ?></a> <span style="font-size: 14px; color: rgb(78, 78, 78);">.</span></p>
                             <img src="public/assets/images/icons/<?php echo $post_visibility_image_path; ?>.png" class="image-style-8" alt="" style="margin-left: 8px">

@@ -1,7 +1,9 @@
 <?php
     use classes\{Config, Token, Session};
 ?>
+<head>
 
+<link rel="stylesheet" href="public/css/responsiveness.css">
 <div class="create-post-container">
     <div class="post-created-message">
         <p>Post created successfully and added to your <span id="post-creation-place">timeline</span>.</p>
@@ -95,3 +97,4 @@
         </form>
     </div>
 </div>
+</head>
